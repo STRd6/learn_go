@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 type Position struct {
-  x int
-  y int
+	x int
+	y int
 }
 
 func main() {
-  pos := Position{}
+	pos := Position{}
 
-  fmt.Println(pos)
+	fmt.Println(pos)
 }
